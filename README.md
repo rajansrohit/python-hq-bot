@@ -7,7 +7,7 @@ This script is optimized for both Windows and MacOS.
 This version runs off of Python version 3.6 but it should run on any version of Python. This guide will utilize Python 3.6 for ease of instruction.
 
 1.  Download Python 3.6 from https://www.python.org/ and use the installer to install Python to your computer
-    <iframe src="https://drive.google.com/file/d/17XYp9-kTmykQS6rBOIHMZtpQWEfA9Q0V/preview" width="640" height="480"></iframe>
+
 2. After installing Python, locate Python installation at "C:\Users\<Insert Your Username>\AppData\Local\Programs\Python\Python36". Copy this path by selecting and copying as text.
 
 3. Open Run on Windows by pressing the "Windows key + R". In the dialog box, type "SystemPropertiesAdvanced".
