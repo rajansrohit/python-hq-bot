@@ -34,13 +34,13 @@ As HQ Trivia is not compatible with PC, a screen mirroring software is used in l
 4. Open Run on Windows by pressing the "Windows key + R" and type "CMD". Type "cd <Insert Address of "trivia.py" File>".
    ![Alt Text](Pictures/Step_7.png) 
 5. One you're in the folder of the "trivia.py" file, type "python trivia.py" in the the "Command Prompt" window. Move the "Command Prompt" window aside.
-   ![Alt Text](Pictures/Step_8.png)  
+   ![Alt Text](Pictures/Step_9.png)  
    
 # Usage
 1. After opening the "trivia.py" file, the screen should be tinted gray. When the question appears on the screen, select the entirety of the question and the answer choices.
-   ![Alt Text](Pictures/Step_9.png) 
-2. After the script scraps the internet based on the question and answer choices, the answers will be shown with accuracy percentages next to them, highest being better.
    ![Alt Text](Pictures/Step_10.png) 
+2. After the script scraps the internet based on the question and answer choices, the answers will be shown with accuracy percentages next to them, highest being better.
+   ![Alt Text](Pictures/Step_11.png) 
 3. Type "python trivia.py" in the "Command Prompt" and repeat for all questions.
 
 # DISCLAIMER
