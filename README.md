@@ -18,7 +18,7 @@ This version runs off of Python version 3.6 but it should run on any version of 
 
 6. Clone this repository to your computer and unzip.
 
-7. Store the Python fill called "trivia.py" in a place that is easy to access. Keep note of the address of the location of the "trivia.py" file.
+7. Store the Python fill called "trivia.py" and "key.json" in a place that is easy to access. Keep note of the address of the location of the "trivia.py" and "key.json" files and keep them in the same file location.
 
 # Setup
 This script utilizes the internet. Thus, it will be necessary that you are connect to the internet on your PC.
@@ -33,14 +33,14 @@ As HQ Trivia is not compatible with PC, a screen mirroring software is used in l
 
 4. Open Run on Windows by pressing the "Windows key + R" and type "CMD". Type "cd <Insert Address of "trivia.py" File>".
 
-5. One you're in the folder of the "trivia.py" file, type "python trivia.py" in the the "Command Prompt" window. Minimize the "Command Prompt" window.
+5. One you're in the folder of the "trivia.py" file, type "python trivia.py" in the the "Command Prompt" window. Move the "Command Prompt" window aside.
 
 # Usage
 1. After opening the "trivia.py" file, the screen should be tinted gray. When the question appears on the screen, select the entirety of the question and the answer choices.
 
 2. After the script scraps the internet based on the question and answer choices, the answers will be shown with accuracy percentages next to them, highest being better.
 
-3. The script resets with no user input and the process can be repeated.
+3. Type "python trivia.py" in the "Command Prompt" and repeat for all questions.
 
 # DISCLAIMER
 This script by no means will provide the correct answer everytime. The success rate is approximately 75%-85%. Some answers that are given may be incorrect due to a multitude of errors.
