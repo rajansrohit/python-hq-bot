@@ -3,4 +3,4 @@ A web scraper that utilizes Google and optical character recognition for answers
 
 ReadMe will be updated for consumer use
 
-Post in issues and I can add for instructions for consumer use
+
