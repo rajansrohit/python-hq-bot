@@ -99,7 +99,7 @@ def ser(bol,a1,a2,a3,question):
     results = json.loads(page.text)
     results.keys()
 
-
+    #########################Searching the snippets and titles#############################################
     global fountq1
     global fountq2
     global fountq3
