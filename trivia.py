@@ -79,7 +79,8 @@ def ser(bol,a1,a2,a3,question):
 
 
     #################################################################
-    
+    key = "AIzaSyDF90rAtV80Kuea4nYiCwwg9a-mXxXloGk"
+    cx = "003707666010862786240:413saih3q7i"
 
 
     q = question
