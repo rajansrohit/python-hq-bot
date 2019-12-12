@@ -292,6 +292,6 @@ if __name__ == '__main__':
     window = MyWidget()
     window.show()
     app.aboutToQuit.connect(app.deleteLater)
-    
+    sys.exit(app.exec_())
 
 
