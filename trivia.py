@@ -291,7 +291,7 @@ if __name__ == '__main__':
     app = QtWidgets.QApplication(sys.argv)
     window = MyWidget()
     window.show()
-    app.aboutToQuit.connect(app.deleteLater)
+   
     sys.exit(app.exec_())
 
 
