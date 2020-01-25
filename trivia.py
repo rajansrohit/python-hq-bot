@@ -78,7 +78,7 @@ def ser(bol,a1,a2,a3,question):
 
 
     #################################################################
-    key = #your API key
+    key = "AIzaSyDF90rAtV80Kuea4nYiCwwg9a-mXxXloGk"
     cx = #your id
 
     q = question
