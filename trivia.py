@@ -16,6 +16,7 @@ from nltk.corpus import stopwords
 import nltk
 import urllib.request
 from http.cookiejar import CookieJar
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"]="key.json"
 
 fountq1=0
 fountq2=0
