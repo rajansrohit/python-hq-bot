@@ -16,8 +16,6 @@ from nltk.corpus import stopwords
 import nltk
 import urllib.request
 from http.cookiejar import CookieJar
-import os
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"]="key.json"
 
 fountq1=0
 fountq2=0
@@ -79,9 +77,8 @@ def ser(bol,a1,a2,a3,question):
 
 
     #################################################################
-    key = "AIzaSyDF90rAtV80Kuea4nYiCwwg9a-mXxXloGk"
-    cx = "003707666010862786240:413saih3q7i"
-
+    key = #your API key
+    cx = #your id
 
     q = question
 
@@ -156,24 +153,24 @@ def ser(bol,a1,a2,a3,question):
                 fountq3+=item["title"].lower().count(x)
 
     print("**************************************************************")
-    print("Question: ", end='')
+    print("question: ", end='')
     print(OGquestion)
 
     print("")
     print(a1)
-    print("Points: ", end='')
+    print("snipet/title: ", end='')
     print(fountq1)
     print("")
 
     print("")
     print(a2)
-    print("Points: ", end='')
+    print("snipet/title: ", end='')
     print(fountq2)
     print("")
 
     print("")
     print(a3)
-    print("Points: ", end='')
+    print("snipet/title: ", end='')
     print(fountq3)
     print("")
 
@@ -261,7 +258,7 @@ class MyWidget(QtWidgets.QWidget):
         #**************************aa.py***********************************************
         print("inputting image")
 
-        path=r"C:\Rohit\Coding Projects\HQ Bot\capture.png"
+        path=r"C:\Users\honol\Desktop\trivia\for-Github\capture.png"
 
         client = vision.ImageAnnotatorClient()
 
@@ -293,5 +290,3 @@ if __name__ == '__main__':
     window.show()
     app.aboutToQuit.connect(app.deleteLater)
     sys.exit(app.exec_())
-
-
